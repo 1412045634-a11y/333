@@ -24,7 +24,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse, JSONResponse, Response
 
 # --- 内部模块导入 ---
-from modules.file_uploader import upload_to_file_bed
+from models.file_uploader import upload_to_file_bed
 
 
 # --- 基础配置 ---
